@@ -7,7 +7,7 @@ import pytest
 def test_file():
     """Создание временного тестового файла для загрузки."""
     with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False) as f:
-        f.write("Я хочу попасть на стажировку в Яндекс!")
+        f.write("Привет, яндекс диск!")
         return f.name
 
 
